@@ -12,12 +12,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: #FEFEFE;
     font-size: 18px;
     color: #000;
     margin: 0 auto;
     border-radius: 50px;
-    border-color: #0000003c;
+    border: 1px solid #E4E4E4;
 }
 .links {
     display: flex;
@@ -27,10 +27,10 @@ nav{
 
 .links h4 {
     padding: 10px 20px;
-    border: 1px solid #0000003c;
+    border: 1px solid #000;
     border-radius: 50px;
     font-weight: 500;
-    color: #000000bb;
+    color: #8E8E8E;
     transition: all ease 0.4s;
     position: relative;
     font-size: 18px;
@@ -72,9 +72,12 @@ nav{
     font-weight: 500;
     color: white;
     background-color: #000;
+    transition: all ease 0.4s;
+    margin-left: 32px;
 }
 
-.linkContact:hover{
-    
-    transition: all ease 0.1s;
+.linkContact:hover {
+    padding-left: 32px;
+    padding-right: 32px;
+    transition: all ease 0.4s;
 }

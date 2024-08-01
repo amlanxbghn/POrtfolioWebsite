@@ -1,0 +1,63 @@
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    color: #000;
+    background-color: #FCFCFC;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 20rem;
+    border: 1px solid #0000003c;
+}
+
+.emoji {
+    display: inline-block;
+    animation: waving-hand 2.5s infinite;
+    transform-origin: 70% 70%;
+    transition: all ease 0.4s;
+    font-size: 2.5rem;
+}
+
+.emoji:hover {
+    font-size: 3.5rem;
+    transition: all ease 0.4s;
+
+}
+
+@keyframes waving-hand {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4.0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.divider {
+    border-top: 1px solid #3f3f3f;
+    margin-top: 8rem;
+}
