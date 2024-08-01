@@ -1,12 +1,13 @@
 .landing-page {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     color: #000;
     background-color: #FCFCFC;
-    padding-left: 14rem;
-    padding-right: 14rem;
-    padding-top: 20rem;
+    padding: 20rem 14rem;
     border: 1px solid #0000003c;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin: 0 auto;
 }
 
 .emoji {
