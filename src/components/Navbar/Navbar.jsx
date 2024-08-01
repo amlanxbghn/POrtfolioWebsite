@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav>
       <div className="name">
-        <a href='#'>Amlan BG</a>
+        <a href='#' className='font-mono font-bold'>amlan.tech</a>
       </div>
       <div className="links">
         <h4><a href="#home" className="link">Home</a></h4>
