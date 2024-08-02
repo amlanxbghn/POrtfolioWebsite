@@ -4,10 +4,15 @@
     color: #000;
     background-color: #FCFCFC;
     padding: 20rem 14rem;
-    border: 1px solid #0000003c;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    margin: 0 auto;
+    border: 1px solid #7979791a;
+    border-radius: 50px;
+    margin-left: 5vw;
+    margin-top: -5vh;
+    box-shadow: 
+        inset 0 4px 8px #7979791a,  /* Top shadow */
+        inset 0 -4px 8px #7979791a, /* Bottom shadow */
+        inset 4px 0 8px #7979791a,  /* Left shadow */
+        inset -4px 0 8px #7979791a; /* Right shadow */
 }
 
 .emoji {
