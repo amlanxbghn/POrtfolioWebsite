@@ -10,9 +10,9 @@ function App() {
   return (
     <div className='w-full min-h-screen'>
       <Navbar />
-      <LandingPage />
-      <Marquee />
-      <About />
+      {/* <LandingPage /> */}
+      {/* <Marquee /> */}
+      {/* <About /> */}
     </div>
   )
 }
